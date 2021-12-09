@@ -12,7 +12,7 @@ int main () {
     j = 0;
     grid.push_back(vector<int>());
     for (char c : line) {
-      grid[i].push_back(c-'0');
+      grid[i].push_back(c-'0'); //integer conversion techincally redundant
       j++;
     }
     ++i;
