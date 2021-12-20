@@ -19,7 +19,7 @@ int main() {
       for (int vx=-1000;vx<1000;++vx) {  
         int t = min(static_cast<int>(ceil(T_inverse(T(vy) -yMax))+vy+1),vx);
         int xpos = t*vx-T(t-1);
-        if (xpos > xMin && xpos < xMax) {
+        if (xpos >= xMin && xpos <= xMax) {
           flag = true;
           cout << T(vy) << endl;
           break;
