@@ -1,1 +1,1 @@
-# AdventOfCode2021 Solutions in Haskell and C++
+# Advent of Code 2021 Solutions in Haskell and C++
